@@ -14,6 +14,10 @@
     "strings",
     "code-along"
   ],
+ "scripts": {
+    "postinstall": "gem install learn-co",
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
   "author": "Flatiron School",
   "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
